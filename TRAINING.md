@@ -4,6 +4,8 @@
 
 The fresh catalog begins empty. Migration does not authorize restoring old examples or generating new ads. Add examples through the review process only after the migration and when requested.
 
+The application destination is the existing Adrial Hub. Its identity, permissions and private storage govern reference review and future jobs. Earlier Sites deployment requirements are superseded; reference guidance does not authorize creating or publishing a replacement application.
+
 ## Add and review inspiration
 
 Start with a small, representative set of digital examples in one flat inspiration folder. Keep private examples and their review records in approved private storage, outside this public repository.

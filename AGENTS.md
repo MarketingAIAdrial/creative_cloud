@@ -2,7 +2,7 @@
 
 ## Scope and sources of truth
 
-Continue the existing private application using its approved source checkpoints and production documentation. Do not rebuild or replace it because source files are unavailable. Report the specific missing artifacts and continue independent work.
+Continue Creative Studio inside the existing Adrial Hub using the current authorized Hub source and the latest verified SharePoint importer checkpoint. This Hub destination supersedes earlier Sites hosting instructions. Do not create a Sites project, publish through Sites, require access to an old Sites project, or use an inherited hosting manifest to select production. Preserve the original personal application and source storage. Do not rebuild or replace the Hub because source files are unavailable; report the exact missing source or access.
 
 This repository contains public-safe guidance. Keep private application source, assets, operational manifests, connection identifiers, authentication material and deployment bindings out of a public repository. Confirm the intended source destination and its privacy before uploading private source. Never put secret values into chat, prompts, logs, browser bundles or delivery packages; use approved server-side secret storage.
 
@@ -30,6 +30,8 @@ Do not restore historical creatives, templates, classifications, comments, react
 
 Keep the approved application source, design/build documentation, brand/copy instructions and production workflow. Do not modify or delete the original source storage or original personal application. Recheck live state before any migration or deployment; an earlier empty-state observation does not authorize deleting later records.
 
+Isolate the fresh active catalog in versioned private Hub storage with a reviewed rollback path. Preserve the old production data and all other Hub applications. Do not switch the entire Hub bucket, restore historical seeds, or overwrite newer Hub source with an old snapshot. Check that build, preview and restart paths cannot resurrect the old catalog.
+
 Use one flat, digital-only inspiration folder with examples directly inside it. Examples can inform composition and layout across markets. The target market's approved logos, colours, typography, language and copy rules always override an example's branding, offer or language.
 
 ## Storage and importer requirements
@@ -42,7 +44,11 @@ Create a fresh delivery index only after its contract is complete. It must ident
 
 ## Runtime, permissions and generation
 
-Reuse the exact approved private work-owned application and deployment binding supplied through private configuration. Do not substitute another workspace or create a replacement project. Verify the deployment target, catalog, media and history before publishing. Preserve existing users and enforce the intended narrow member permissions server-side.
+Use the existing Hub login, application/page permissions, administrator checks, private storage adapters and release process. Preserve restrictions on simulated sessions and preview writes. A standalone owner-email setting is not a replacement for Hub authorization; membership must not be promoted to global administration merely to use Creative Studio. Verify the current source-to-running-revision relationship before implementation and preserve other applications' changes.
+
+Provision runtime secrets only through the approved Hub server-side secret system. Port the importer to the actual Hub Node/workflow configuration boundary. Verify atomicity, lease ownership, media privacy and failure behavior through the actual Hub storage adapters; tests against a separate D1/R2 runtime are not proof of Hub integration.
+
+Prepare a candidate using the current Hub release scripts and policy. Verify source-to-immutable-image provenance and candidate isolation from production traffic. Preserve release configuration restrictions; do not bypass them with manual traffic or authentication changes. If the current release process requires owner approval, finish a concrete tested candidate before requesting it. Environment draft publication and Hub application deployment are separate operations.
 
 Distinguish local CLI authentication, the member's own application login, preview/impersonation, repository access and hosted worker capability. Success in one does not establish the others. Reuse existing account connections and verify actual identity/access before asking the user to repeat setup. Check only credential names and presence, never secret values.
 
